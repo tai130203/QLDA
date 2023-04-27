@@ -1,0 +1,42 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 225px;
+    height: 225px;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #fff;
+    &:hover {
+        background-color: #eaeef9;
+    }
+}
+
+.header {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+        width: 16px;
+    }
+    margin-right: 16px;
+}
+
+.header-title {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.document-img {
+    width: 208px;
+    height: 166px;
+}
